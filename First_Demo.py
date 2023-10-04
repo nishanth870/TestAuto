@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.service import Service
 
 oj = webdriver.ChromeOptions()
 oj.add_argument("--start-maximized")
-oj.add_argument('--headless')                          # ---headless browser
+#oj.add_argument('--headless')                          # ---headless browser
 #oj.add_argument("--windoe-size=375,667")
 
 obj = Service()
@@ -21,6 +21,7 @@ driver.get("https://rahulshettyacademy.com/angularpractice/")
 #driver.maximize_window()
 print(driver.title)
 print(driver.current_url)
+print("Test")
 driver.refresh()
 driver.forward()
 
